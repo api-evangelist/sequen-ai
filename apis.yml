@@ -1,8 +1,27 @@
 aid: sequen-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sequen-ai.png
 name: Sequen AI
-description: 'Sequen AI is a company surfaced as a portfolio company of threshold-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Sequen AI operates a Behavior Design Engine — an AI-powered ranking and
+  real-time, in-session personalization platform for consumer applications. Its proprietary
+  Large Event Models (LEMs) generalize user behavior from sparse event data (clicks,
+  scrolls, hovers, purchases) to dynamically rank and re-rank product discovery, search,
+  recommendations, and advertising with sub-20ms latency. Products include Sequen IQ
+  (LEM-based ranking on purpose-built Sequen Ranking Clusters), Sequen Ranktune (model
+  building and experimentation), and Sequen Rumi (analytics and behavioral-insight
+  dashboard). The platform integrates via API with existing stacks. Sequen AI is
+  backed by Threshold Ventures. No public developer portal, API reference, SDKs, or
+  OpenAPI definition are published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/sequen-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Personalization
+- Ranking
+- Recommendations
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sequen-ai-domain-security.yml
 - type: Website
   url: https://www.sequen.ai/
+- type: Blog
+  url: https://www.sequen.ai/blog
+- type: TermsOfService
+  url: https://www.sequen.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.sequen.ai/privacy-policy
+- type: Twitter
+  url: https://x.com/sequen_ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/sequen-ai
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
